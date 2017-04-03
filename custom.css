@@ -9,8 +9,8 @@
       width: 100%;
       height: 100%;
       background: linear-gradient(
-        rgba(0,0,0,.55),
-        rgba(0,0,0,.55)
+        rgba(0,0,0,.9),
+        rgba(100,100,100,0)
       ),
        url('img/airfront.jpg') no-repeat center;
       background-size: cover;
