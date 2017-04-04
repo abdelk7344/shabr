@@ -28,3 +28,12 @@ h2 {
   font-family: 'Indie Flower', cursive;
   font-size: 40px;
 }
+.jumbtrontable{
+  display:table;
+}
+.container{
+   text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  
+}
