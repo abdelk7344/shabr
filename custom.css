@@ -15,3 +15,17 @@
        url('img/airfront.jpg') no-repeat center;
       background-size: cover;
     }
+  .heading{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+  }
+  h1{
+    font-family: 'Lobster', cursive;
+    font-size:85px;
+  }
+  h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+  }
