@@ -1,11 +1,11 @@
-html,
-body {
+html,body {
   width: 100%;
   height: 100%;
+
 }
 
 #homepic {
-  display: table;
+ display: table;
   width: 100%;
   height: 100%;
   background: linear-gradient( rgba(0, 0, 0, .9), rgba(100, 100, 100, 0)), url('img/airfront.jpg') no-repeat center;
@@ -29,19 +29,18 @@ h2 {
   font-size: 40px;
 }
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
-      margin: auto;
-  }
-
-.jumbtrontable{
-  display:table;
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  width: 100%;
+  margin: auto;
 }
-.container{
-   text-align: center;
+
+.jumbtrontable {
+  display: table;
+}
+
+.container {
+  text-align: center;
   vertical-align: middle;
   display: table-cell;
-  
 }
-
