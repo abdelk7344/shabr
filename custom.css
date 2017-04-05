@@ -1,3 +1,4 @@
+
 html,
 body {
   width: 100%;
@@ -35,14 +36,11 @@ h2 {
   margin: auto;
 }
 
-.jumbtrontable {
-  display: table;
-}
 
 .container {
   text-align: center;
   vertical-align: middle;
-  display: table-cell;
+ 
 }
 
 #contact {
