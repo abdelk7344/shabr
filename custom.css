@@ -49,3 +49,13 @@ h2 {
   font-size: 1.5em;
   border-radius: 25px;
 }
+
+#testimonials{
+ background: linear-gradient(to right, #00d2ff,#317bd5);
+   border-radius: 25px;
+}
+#test{
+  background: #fc354c;
+   border-radius: 25px;
+   color: white;
+}
