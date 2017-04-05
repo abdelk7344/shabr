@@ -1,11 +1,11 @@
-html,body {
+html,
+body {
   width: 100%;
   height: 100%;
-
 }
 
 #homepic {
- display: table;
+  display: table;
   width: 100%;
   height: 100%;
   background: linear-gradient( rgba(0, 0, 0, .9), rgba(100, 100, 100, 0)), url('img/airfront.jpg') no-repeat center;
@@ -43,4 +43,11 @@ h2 {
   text-align: center;
   vertical-align: middle;
   display: table-cell;
+}
+
+#contact {
+  background: linear-gradient(#ffb347,#ffcc33);
+  display: table;
+  font-size: 1.5em;
+  border-radius: 25px;
 }
