@@ -18,6 +18,56 @@
   <link rel="stylesheet" href="custom.css">
   <link rel="stylesheet" href="nav.css">
   <script src="script.js"></script>
+  <style>
+  
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+    
+    #homepic {
+      display: table;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient( rgba(0, 0, 0, .9), rgba(100, 100, 100, 0)), url('img/airfront.jpg') no-repeat center;
+      background-size: cover;
+    }
+    
+    .heading {
+      text-align: center;
+      vertical-align: middle;
+      display: table-cell;
+      color: white;
+    }
+    
+    h1 {
+      font-family: 'Lobster', cursive;
+      font-size: 85px;
+    }
+    
+    h2 {
+      font-family: 'Indie Flower', cursive;
+      font-size: 40px;
+    }
+    
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+      width: 100%;
+      margin: auto;
+    }
+    
+    .jumbtrontable {
+      display: table;
+    }
+    
+    .container {
+      text-align: center;
+      vertical-align: middle;
+      display: table-cell;
+    }
+    
+  </style>
 </head>
 
 <body>
@@ -37,11 +87,12 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home <span class="glyphicon glyphicon-home"></span> <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Information <span class="glyphicon glyphicon-info-sign"></span></a></li>
-          <li><a href="#">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
-          <li><a href="#">Testimonials <span class="glyphicon glyphicon-user"></span></a></li>
-          <li><a href="#">Contact <span class="glyphicon glyphicon-earphone"></span></a></li>
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Information</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -55,19 +106,18 @@
     </div>
   </div>
 
-  <br>
-  <br>
 
-  <div class="container">
-    <div class="jumbotron">
-      <h1>Fun for Everyone</h1>
-      <p>Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome!</p>
-      <p>Afraid of heights?</p>
-      <p>You won't be after you slow-dance with the sky.</p>
+  <div class="jumbtrontable">
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Fun for Everyone</h1>
+        <p>Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome!</p>
+        <p>Afraid of heights?</p>
+        <p>You won't be after you slow-dance with the sky.</p>
+      </div>
     </div>
   </div>
 
-  <br>
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -76,8 +126,6 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
-      <li data-target="#myCarousel" data-slide-to="5"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -97,14 +145,6 @@
       <div class="item">
         <img src="img/balloon-4.jpg" alt="balloonr" width="460" height="345">
       </div>
-
-      <div class="item">
-        <img src="img/balloon-5.jpg" alt="balloonr" width="460" height="345">
-      </div>
-
-      <div class="item">
-        <img src="img/balloon-6.jpg" alt="balloonr" width="460" height="345">
-      </div>
     </div>
 
     <!-- Left and right controls -->
@@ -118,55 +158,6 @@
     </a>
   </div>
 
-  <br>
-  <br>
-
-
-  <div class="container" id="testimonials">
-    <br>
-    <div id="test">
-      "Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!" -- Joan H.
-
-    </div>
-    <br>
-    <div id="test">
-      "I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR." -- Marsha N.
-
-    </div>
-    <br>
-    <div id="test">
-      "Thanks so much for making our experience so perfect. I definitely want to go back again! -- Linda T.
-    </div>
-    <br>
-    <div id="test">
-      "What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!" -- Tammy P.
-    </div>
-    <br>
-    <div id="test">
-      "Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!" -- Ethel E.
-    </div>
-    <br>
-  </div>
-  
-  <br>
-  <br>
-
-  <div class="container" id="contact">
-    <p>Contact: We’d love to hear from you</p>
-    <br>
-    <p><span class="glyphicon glyphicon-map-marker"></span> Address</p>
-    <p>SHABR, Inc.</p>
-    <p>1234 Shabr Road</p>
-    <p>Somewhere, OT 80013</p>
-    <br>
-    <p><span class="glyphicon glyphicon-earphone"></span> Phone(555) 555-1234</p>
-  </div>
-
-  <br>
-  <br>
-
 </body>
 
-
 </html>
-
