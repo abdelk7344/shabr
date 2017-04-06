@@ -29,19 +29,32 @@ h2 {
   font-size: 40px;
 }
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
-      margin: auto;
-  }
-
-.jumbtrontable{
-  display:table;
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  width: 100%;
+  margin: auto;
 }
-.container{
-   text-align: center;
+
+
+.container {
+  text-align: center;
   vertical-align: middle;
-  display: table-cell;
-  
+ 
 }
 
+#contact {
+  background: linear-gradient(#ffb347,#ffcc33);
+  display: table;
+  font-size: 1.5em;
+  border-radius: 25px;
+}
+
+#testimonials{
+ background: linear-gradient(to right, #00d2ff,#317bd5);
+   border-radius: 25px;
+}
+#test{
+  background: #fc354c;
+   border-radius: 25px;
+   color: white;
+}
