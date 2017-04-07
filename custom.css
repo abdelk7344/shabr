@@ -3,7 +3,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: black;
+
 }
 
 #homepic {
@@ -11,7 +11,7 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient( rgba(0, 0, 0, .9), rgba(100, 100, 100, 0)), url('img/airfront.jpg') no-repeat center;
- 
+  background-size: cover;
 }
 
 .heading {
@@ -59,4 +59,8 @@ h2 {
   background: #fc354c;
    border-radius: 25px;
    color: white;
+}
+#copy{
+  background-color: red;
+  text-align: center;
 }
