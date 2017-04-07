@@ -38,8 +38,12 @@ h2 {
 .container {
   text-align: center;
   vertical-align: middle;
+  border-radius: 25px;
+  
 }
-
+p{
+  
+}
 #contact {
   background: linear-gradient(#ffb347, #ffcc33);
   display: table;
@@ -57,25 +61,29 @@ h2 {
   border-radius: 25px;
   color: white;
 }
-
-.row {
-  margin-bottom: 20px;
-  text-align: center;
+#grey{
+  background-color: grey;
 }
 
-.row .row {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
+/*.row {*/
+/*  margin-bottom: 20px;*/
+/*  text-align: center;*/
+/*}*/
 
-[class*="col-"] {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #eee;
-  background-color: rgba(86, 61, 124, .15);
-  border: 1px solid #ddd;
-  border: 1px solid rgba(86, 61, 124, .2);
-}
-.time{
-  background-color: red
-}
+/*.row .row {*/
+/*  margin-top: 10px;*/
+/*  margin-bottom: 0;*/
+/*}*/
+
+/*[class*="col-"] {*/
+/*  padding-top: 15px;*/
+/*  padding-bottom: 15px;*/
+/*  background-color: #eee;*/
+/*  background-color: white;*/
+/*  border: 1px solid #ddd;*/
+/*  border: 1px solid rgba(86, 61, 124, .2);*/
+/*  border-radius: 5px;*/
+/*}*/
+/*.time{*/
+/*  background-color: red*/
+/*}*/
