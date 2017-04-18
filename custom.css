@@ -4,7 +4,9 @@ body {
   height: 100%;
 
 }
-
+.nav{
+  
+}
 #homepic {
   display: table;
   width: 100%;
@@ -64,6 +66,7 @@ h2 {
 
   border-radius: 25px;
   color: white;
+  text-align: center;
 }
 
 .row {
@@ -84,5 +87,4 @@ h2 {
 }
 .time{
   background-color: red;
-
 }
