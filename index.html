@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Title</title>
+  <title>SHABR</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
@@ -22,7 +24,7 @@
 
 <body>
 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -37,9 +39,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="#homepic">Home <span class="glyphicon glyphicon-home"></span> <span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="#homepic">Home <span class="glyphicon glyphicon-home"></span> <span class="sr-only">(current)</span></a></li>
           <li><a href="#info">Information <span class="glyphicon glyphicon-info-sign"></span></a></li>
-          <li><a href="#scrolls">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
+          <li><a href="#myCarousel">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
           <li><a href="#testimonials">Testimonials <span class="glyphicon glyphicon-user"></span></a></li>
           <li><a href="#contact">Contact <span class="glyphicon glyphicon-earphone"></span></a></li>
         </ul>
@@ -68,9 +70,56 @@
   </div>
 
   <br>
+  <div id="info">
+    <div class="container">
+      <div class="topic">Info: All the information you'll need</div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Time</h3>
+            <p class="card-text">Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead
+              for the exact meeting time.</p>
 
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Weather</h3>
+            <p class="card-text">High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow
+              their balloon flight.</p>
 
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Flight</h3>
+            <p class="card-text">Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Participation</h3>
+            <p class="card-text">We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div class="topic"><span style="font-size:44px;">Gallery</span></div>
+
+  <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -82,7 +131,7 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox" id="scrolls">
+    <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="img/balloon-1.jpg" alt="balloon" width="460" height="345">
       </div>
@@ -106,56 +155,23 @@
       <div class="item">
         <img src="img/balloon-6.jpg" alt="balloonr" width="460" height="345">
       </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </div>
 
-  <br>
-  <div class="row" id="info">
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-block">
-          <h3 class="card-title">Time</h3>
-          <p class="card-text">Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead
-            for the exact meeting time.</p>
 
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-block">
-          <h3 class="card-title">Weather</h3>
-          <p class="card-text">High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow
-            their balloon flight.</p>
-
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-block">
-          <h3 class="card-title">Fight</h3>
-          <p class="card-text">WOur actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
-
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-block">
-          <h3 class="card-title">Participation</h3>
-          <p class="card-text">We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <br>
   <br>
 
 
   <div class="container" id="testimonials">
+    <div class="topic" id="special">Testimonials: Just a few of our happy customers</div>
     <br>
     <div id="test">
       "Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!" -- Joan H.
