@@ -2,6 +2,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  background-color: #333333;
 }
 
 #homepic {
@@ -40,50 +41,89 @@ h2 {
   vertical-align: middle;
   border-radius: 25px;
   
-}
-p{
   
 }
+h3{
+   font-family: 'Lobster', cursive;
+}
+p{
+  font-family: 'Petit Formal Script', cursive;
+  
+}
+
 #contact {
-  background: linear-gradient(#ffb347, #ffcc33);
+  background: #FFCC00;
+  color:black;
   display: table;
   font-size: 1.5em;
   border-radius: 25px;
+  font-family: 'Lobster', cursive;
+  box-shadow: 5px 5px #993366;
 }
 
 #testimonials {
-  background: linear-gradient(to right, #00d2ff, #317bd5);
+  
+  background: #333333;
   border-radius: 25px;
 }
 
 #test {
-  background: #fc354c;
-  border-radius: 25px;
+   color: black;
+   font-family: 'Lobster Two', cursive;
+   font-size: 25px;
+   box-shadow: 5px 5px #669966;
+   background-color: #FFCC00;
+}
+#copy{
+  font-family: 'Lobster', cursive;
+  background-color: #669966;
   color: white;
 }
-#grey{
-  background-color: grey;
+
+.row {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-/*.row {*/
-/*  margin-bottom: 20px;*/
-/*  text-align: center;*/
-/*}*/
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.jumbotron{
+  background-color: #FFCC00;
+  color: black;
+  box-shadow: 5px 5px  #669966;
+}
+.card{
+  background-color:#FFCC00;
+  box-shadow: 5px 5px #993366;
+}
+.topic{
+  text-align: center;
+  font-size: 37px;
+  background-color: #FFCC00;
+  font-family: 'Lobster', cursive;
+  box-shadow: 5px 5px #993366;
+}
+#special{
+   box-shadow: 5px 5px #669966;
+}
 
-/*.row .row {*/
-/*  margin-top: 10px;*/
-/*  margin-bottom: 0;*/
-/*}*/
+ @media(min-width:768px){
+      h1 {
+        font-size: 85px;
+      }
+ }
+  @media(min-width:992px){
+      h1 {
+        font-size: 92px;
+      }
+ }
+  @media(min-width:1200px){
+      h1 {
+        font-size: 97px;
+      }
+ }
 
-/*[class*="col-"] {*/
-/*  padding-top: 15px;*/
-/*  padding-bottom: 15px;*/
-/*  background-color: #eee;*/
-/*  background-color: white;*/
-/*  border: 1px solid #ddd;*/
-/*  border: 1px solid rgba(86, 61, 124, .2);*/
-/*  border-radius: 5px;*/
-/*}*/
-/*.time{*/
-/*  background-color: red*/
-/*}*/
+ 
+
