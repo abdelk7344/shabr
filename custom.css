@@ -3,7 +3,7 @@ body {
   width: 100%;
   height: 100%;
   /*background-color: #333333;*/
-  background: url('https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjZ7LX67bDTAhUr_IMKHUVBAFcQjRwIBw&url=https%3A%2F%2Fpixabay.com%2Fen%2Fphotos%2Fhot%2520air%2520balloon%2F&psig=AFQjCNEFHV_DiwM6lcNSeA_T1zL8VIx6yQ&ust=1492701969104072') center;
+  background: url('img/air.jpeg') center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -27,6 +27,7 @@ body {
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 85px;
+  color:#FFCC00;
 }
 
 h2 {
@@ -66,7 +67,7 @@ p {
 }
 
 #testimonials {
-  /*background: #333333;*/
+  /*background: #FFCC00;*/
   border-radius: 25px;
 }
 
@@ -80,9 +81,11 @@ p {
 
 #copy {
   font-family: 'Lobster', cursive;
-  background-color: #669966;
+  background-color: rgb(51,51,51);
   color: white;
   text-align: center; 
+  padding-top:15px;
+  padding-bottom: 15px;
 }
 
 .row {
