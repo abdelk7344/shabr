@@ -34,6 +34,3 @@ Somewhere, OT 80013
 Phone(555) 555-1234
 
 Copyright © 2016   |   SHABR
-
-
-https://color.adobe.com/Campfire-color-theme-2528696/edit/?copy=true&base=2&rule=Custom&selected=0&name=Copy%20of%20Campfire&mode=hex&rgbvalues=0.345098,0.54902,0.494118,0.94902,0.890196,0.580392,0.94902,0.682353,0.447059,0.85098,0.392157,0.34902,0.54902,0.27451,0.27451&swatchOrder=0,1,2,3,4

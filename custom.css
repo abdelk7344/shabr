@@ -27,13 +27,12 @@ body {
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 85px;
-  color:#FFCC00;
+  color: #FFCC00;
 }
 
 h2 {
   font-family: 'Indie Flower', cursive;
   font-size: 40px;
-
 }
 
 .carousel-inner>.item>img,
@@ -54,7 +53,7 @@ h3 {
 
 p {
   font-family: 'Petit Formal Script', cursive;
-  margin:0 0 0px;
+  margin: 0 0 0px;
 }
 
 #contact {
@@ -82,10 +81,10 @@ p {
 
 #copy {
   font-family: 'Lobster', cursive;
-  background-color: rgb(51,51,51);
+  background-color: rgb(51, 51, 51);
   color: white;
-  text-align: center; 
-  padding-top:15px;
+  text-align: center;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
