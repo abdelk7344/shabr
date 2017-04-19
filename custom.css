@@ -3,7 +3,7 @@ body {
   width: 100%;
   height: 100%;
   /*background-color: #333333;*/
-  background: url('https://upload.wikimedia.org/wikipedia/commons/c/cd/Hot_Air_Balloons_%2C_Albuquerque_%2C_Ektachrome_by_Scott_Williams.jpg') center;
+  background: url('img/air.jpeg') center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -27,6 +27,7 @@ body {
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 85px;
+  color:#FFCC00;
 }
 
 h2 {
@@ -66,7 +67,7 @@ p {
 }
 
 #testimonials {
-  /*background: #333333;*/
+  /*background: #FFCC00;*/
   border-radius: 25px;
 }
 
@@ -80,9 +81,11 @@ p {
 
 #copy {
   font-family: 'Lobster', cursive;
-  background-color: #669966;
+  background-color: rgb(51,51,51);
   color: white;
   text-align: center; 
+  padding-top:15px;
+  padding-bottom: 15px;
 }
 
 .row {
