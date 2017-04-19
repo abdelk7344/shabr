@@ -1,12 +1,15 @@
-html,
+html {
+  height: 100%;
+}
+
 body {
   width: 100%;
   height: 100%;
+  background: url('img/project5.jpg') no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
-}
-.nav{
-  
-}
 #homepic {
   display: table;
   width: 100%;
@@ -44,27 +47,24 @@ h2 {
 }
 
 #contact {
-  background: linear-gradient(#ffb347, #ffcc33);
+  background: linear-gradient( #D96459, #F2E394);
   display: table;
   font-size: 1.5em;
   border-radius: 25px;
 }
 
 #testimonials {
-  background: linear-gradient(to right, #00d2ff, #317bd5);
-  border-radius: 25px;
+  background: #F2E394;
 }
 
 #test {
-  background: #fc354c;
-
-   border-radius: 25px;
-   color: white;
-}
-#copy{
-  background-color: red;
-
+  background: #F2AE72;
   border-radius: 25px;
+}
+
+#copy {
+  background-color: #8C4646;
+  margin: 0px;
   color: white;
   text-align: center;
 }
@@ -72,19 +72,22 @@ h2 {
 .row {
   margin-bottom: 20px;
   text-align: center;
-   margin-top: 10px;
+  margin-top: 10px;
   margin-bottom: 0;
 }
-
 
 [class*="col-"] {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #eee;
-  background-color: rgba(86, 61, 124, .15);
+  background-color: #588C7E;
   border: 1px solid #ddd;
   border: 1px solid rgba(86, 61, 124, .2);
 }
-.time{
+
+.time {
   background-color: red;
+}
+
+p {
+  margin: 0 0 0px;
 }
