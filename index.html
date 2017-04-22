@@ -20,26 +20,49 @@
   <link rel="stylesheet" href="custom.css">
   <link rel="stylesheet" href="nav.css">
   <script src="script.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#homepic']").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function() {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    })
+  </script>
 </head>
 
-<body>
-
-  <nav class="navbar navbar-inverse navbar-fixe-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">SHABR</a>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="#homepic">SHABR</a>
       </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#homepic">Home <span class="glyphicon glyphicon-home"></span> <span class="sr-only">(current)</span></a></li>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav inverse">
+          <li class="active"><a href="#homepic">Home <span class="glyphicon glyphicon-home"></span> <span class="sr-only">(current)</span></a></li>-->
           <li><a href="#info">Information <span class="glyphicon glyphicon-info-sign"></span></a></li>
           <li><a href="#myCarousel">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
           <li><a href="#testimonials">Testimonials <span class="glyphicon glyphicon-user"></span></a></li>
@@ -48,6 +71,31 @@
       </div>
     </div>
   </nav>
+
+  <!--<nav class="navbar navbar-inverse navbar-fixed-top">-->
+  <!--  <div class="container-fluid">-->
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <!--    <div class="navbar-header">-->
+  <!--      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">-->
+  <!--      <span class="sr-only">Toggle navigation</span>-->
+  <!--      <span class="icon-bar"></span>-->
+  <!--      <span class="icon-bar"></span>-->
+  <!--      <span class="icon-bar"></span>-->
+  <!--      </button>-->
+  <!--      <a class="navbar-brand" href="#">SHABR</a>-->
+  <!--    </div>-->
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <!--    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+  <!--      <ul class="nav navbar-nav">-->
+  <!--        <li class="active"><a href="#homepic">Home <span class="glyphicon glyphicon-home"></span> <span class="sr-only">(current)</span></a></li>-->
+  <!--        <li><a href="#info">Information <span class="glyphicon glyphicon-info-sign"></span></a></li>-->
+  <!--        <li><a href="#myCarousel">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>-->
+  <!--        <li><a href="#testimonials">Testimonials <span class="glyphicon glyphicon-user"></span></a></li>-->
+  <!--        <li><a href="#contact">Contact <span class="glyphicon glyphicon-earphone"></span></a></li>-->
+  <!--      </ul>-->
+  <!--    </div>-->
+  <!--  </div>-->
+  <!--</nav>-->
 
 
   <div id="homepic">
